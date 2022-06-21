@@ -5,3 +5,8 @@
   margin-left: 236px;
   display: flex !important;
 }
+@media (max-width: 768px) {
+  .slick-nav .slick-list .slick-track {
+    margin-left: 0px;
+  }
+}

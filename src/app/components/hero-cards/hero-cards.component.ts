@@ -1,10 +1,10 @@
-import { Component, OnInit } from '@angular/core';
-import * as data from '../../../assets/heroes.json';
+import { Component, OnInit } from "@angular/core";
+import * as data from "../../../assets/heroes.json";
 
 @Component({
-  selector: 'app-hero-cards',
-  templateUrl: './hero-cards.component.html',
-  styleUrls: ['./hero-cards.component.css'],
+  selector: "app-hero-cards",
+  templateUrl: "./hero-cards.component.html",
+  styleUrls: ["./hero-cards.component.css"]
 })
 export class HeroCardsComponent implements OnInit {
   slideConfig = {
@@ -22,10 +22,10 @@ export class HeroCardsComponent implements OnInit {
         settings: {
           slidesToShow: 1,
           dots: true,
-          arrows: false,
-        },
-      },
-    ],
+          arrows: false
+        }
+      }
+    ]
   };
 
   heroes: any = (data as any).default;

@@ -63,7 +63,7 @@
   height: 72px;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  content: url(http://prisma-beta.celcom.com.my/static/34d75548021ddac96818cad27acb2ed2/chevron.svg);
+  content: url(../node_modules/@celcomdesign/iconography/svg/icon/chevron.svg);
   padding: 16px;
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
     contrast(103%);
@@ -95,7 +95,7 @@
   height: 72px;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  content: url(http://prisma-beta.celcom.com.my/static/2ceb9c3674a36dda148f8213e12d5854/chevron-left.svg);
+  content: url(../node_modules/@celcomdesign/iconography/svg/icon/chevron-left.svg);
   padding: 16px;
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
     contrast(103%);

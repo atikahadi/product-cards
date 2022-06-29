@@ -18,11 +18,38 @@
   align-items: center;
 }
 
+@media only screen and (max-width: 767px) {
+  .slick-hero .slick-list .slick-track {
+    height: fit-content !important;
+  }
+  .slick-hero .slick-dots {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .slick-hero .slick-list .slick-track {
+    height: 240px !important;
+  }
+  .slick-hero .slick-dots {
+    width: 230px !important;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .slick-hero .slick-list .slick-track {
+    height: 430px !important;
+  }
+  .slick-hero .slick-dots {
+    width: 389px !important;
+  }
+}
 /* Hero Cards Dots */
 .slick-hero .slick-dots {
   bottom: -32px;
   text-align: center;
   width: 528px;
+  background-color: transparent;
 }
 
 .slick-hero .slick-dots li button {
@@ -63,7 +90,7 @@
   height: 72px;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  content: url(../node_modules/@celcomdesign/iconography/svg/icon/chevron.svg);
+  content: url(assets/icons/chevron.svg);
   padding: 16px;
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
     contrast(103%);
@@ -95,7 +122,7 @@
   height: 72px;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  content: url(../node_modules/@celcomdesign/iconography/svg/icon/chevron-left.svg);
+  content: url(assets/icons/chevron-left.svg);
   padding: 16px;
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
     contrast(103%);

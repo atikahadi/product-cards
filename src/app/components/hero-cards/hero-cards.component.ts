@@ -18,15 +18,12 @@ export class HeroCardsComponent implements OnInit {
     draggable: true,
     responsive: [
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           dots: true,
+          arrows: false,
         },
-      },
-      {
-        breakpoint: 300,
-        settings: 'unslick', // destroys slick
       },
     ],
   };

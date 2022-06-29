@@ -1,0 +1,15 @@
+<ngx-slick-carousel class="slick-hero" [config]="slideConfig">
+  <div
+    ngxSlickItem
+    *ngFor="let hero of heroes"
+    class="slick-item card border-0"
+  >
+    <!-- <a class="hero-card-banner card border-0"> -->
+    <img class="card-img shadow" [src]="hero.imgSrc" [routerLink]="hero.link" />
+    <div class="banner-content card-body">
+      <h4 class="font-weight-bold">{{ hero.title }}</h4>
+      <p class="small">{{ hero.description }}</p>
+    </div>
+    <!-- </a> -->
+  </div>
+</ngx-slick-carousel>
